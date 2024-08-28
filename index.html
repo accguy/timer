@@ -4,9 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>timer</title>
-    <style></style>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script></script>
+    <header>
+      <h1><img src="./assets/image/weniv-logo.png" alt="WENIV" /></h1>
+    </header>
+    <main>
+      <article>
+        <h2>TIMER</h2>
+        <div class="time-container">
+          <div class="hrs-unit">
+            <p>HRS</p>
+            <input class="hrs-input" type="number" placeholder="입력부분" />
+            <input
+              class="hrs-display"
+              type="number"
+              readonly
+              placeholder="결과부분"
+            />
+          </div>
+          <div class="min-unit">
+            <p>MIN</p>
+            <input class="min-input" type="number" placeholder="입력부분" />
+            <input
+              class="min-display"
+              type="number"
+              readonly
+              placeholder="결과부분"
+            />
+          </div>
+          <div class="sec-unit">
+            <p>SEC</p>
+            <input class="sec-input" type="number" placeholder="입력부분" />
+            <input
+              class="sec-display"
+              type="number"
+              readonly
+              placeholder="결과부분"
+            />
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="start-btn">START</button>
+          <button class="reset-btn">RESET</button>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <p>ⓒ WENIV Corp.</p>
+    </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
