@@ -71,7 +71,8 @@ main {
 }
 
 footer {
-  padding: 60px;
+  padding-top: 60px;
+  padding-bottom: 25%;
 
   p {
     /* background-color: aqua; */
