@@ -21,6 +21,7 @@ $startBtn.addEventListener("click", () => {
       realTime -= 1;
 
       if (realTime == 0) {
+        isRunning = false;
         window.alert("Finish");
         clearInterval(timer);
       }
@@ -39,6 +40,7 @@ $startBtn.addEventListener("click", () => {
     }, 1000);
 
     $resetBtn.addEventListener("click", () => {
+      isRunning = false;
       if (timer) {
         clearInterval(timer);
       }
